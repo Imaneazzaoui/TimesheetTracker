@@ -1,0 +1,232 @@
+
+.Container {
+    display: flex !important;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    height: 100vh ;
+    max-width: 500px ;
+    width: 100% ;
+    margin: auto;
+}
+
+.outside-image {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+  }
+
+.Container > form {
+    width: 30%;
+    height: 70%;
+    border: 1px solid #8ecae6;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+}
+
+.buttonlogin {
+    background: #219ebc !important;
+}
+
+label {
+    color: rgb(76, 0, 255);
+}
+h3,h2 {
+    text-align: center;
+    color: #219ebc;
+}
+
+h2 {
+    font-family: Arial; 
+    font-weight: bold; 
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+.card-container {
+  
+  width: 90%; 
+  max-width: 2500px; 
+  margin: 20px auto; 
+  border: 1px solid #ddd; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  height: 95vh; 
+}
+
+header {
+  border-bottom: 1px solid #ddd; /* Set the border-bottom to 1px and adjust the color if needed */
+}
+
+.blueback
+{
+  background-color: #edf2fb;
+}
+
+
+
+.greyback
+{
+  background-color: #f8f9fa;
+}
+
+
+.Container {
+    background: linear-gradient(135deg);
+}
+
+.app-wrapper {
+    background-color: #fff;
+    min-width: 350px;
+    min-height: 650px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 10px solid black;
+    margin-bottom: 10px;
+  }
+
+
+  .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* .link:active {
+  border-right: 4px solid white;
+  background: rgb(45, 51, 89);
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* .sidebar {
+  background-color: #184e77;
+  color: white;
+  height:100vh;
+  
+} */
+
+/* .routes {
+  color: white;
+} */
+
+/* .main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-large {
+  font-size: 22px; 
+  margin: auto;
+} */
+
+
+
+#savebutton {
+
+  background-color: #184e77;
+}
+
+
+main {
+  padding:20px;
+}
+.title {
+  font-size: 30px;
+}
+
+
+
+.top_section {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+
+.link {
+  display: flex;
+  color: white;
+  gap: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+.link:hover {
+  border-right: 4px solid white;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  background: rgb(45,51,89);
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+
+

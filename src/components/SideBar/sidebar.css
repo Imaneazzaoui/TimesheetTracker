@@ -1,0 +1,43 @@
+.sidebar {
+        width: 320px;
+        border-right: 0.5px solid rgb(42, 56, 118);
+        min-height: 100vh;
+        background-color: #405189;
+      
+        .top {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      
+          .logo {
+            padding: 28px;
+          }
+        }
+      
+        .links {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          padding: 25px;
+          cursor: pointer;
+          color: white;
+          font-size: 15px;
+          opacity: 0.5;
+        }
+      
+        .links:hover {
+          color: white;
+          opacity: 1; /* Opacité réduite au survol */
+        }
+      
+        .links.active {
+          color: white !important;
+          opacity: 1; /* Opacité complète pour les liens actifs */
+        }
+      
+        .icon {
+          font-size: 22px;
+          margin-right: 14px;
+        }
+      }
+      

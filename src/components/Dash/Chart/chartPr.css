@@ -1,0 +1,14 @@
+/* For screens up to 400px width (mobile) */
+@media (max-width: 800px) {
+        .custom-chart {
+          width: 400px; /* Adjust the width as needed */
+        }
+      }
+      
+      /* For screens from 401px to 600px width (tablet) */
+      @media (min-width: 501px) and (max-width: 600px) {
+        .custom-chart {
+          width: 600px; /* Adjust the width as needed */
+        }
+      }
+      

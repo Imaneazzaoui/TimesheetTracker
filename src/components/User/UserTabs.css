@@ -1,0 +1,21 @@
+.Tab-content {
+    white-space: nowrap;
+}
+
+.Tab-header {
+    background-color: #e8f1f2;
+}
+
+.Tab-container {
+    border-radius: none;
+}
+  
+.Tab-header {
+  border-radius: 0; 
+}
+
+.Tab:clickable {
+    background-color: blue;
+    border-bottom: 1px solid #ccc; 
+    z-index: 1; 
+  }
